@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  color: #324059;
+  background-color: #0a192f;
+  scroll-behavior: smooth;
+}
+body{
+  font-size: 18px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  line-height: 1.3;
+  overflow-x: hidden;
+  
+}
+h1{
+  line-height: 1.1;
+}
+
+@font-face{
+  font-family: 'Calibre';
+  src: url('./assets/font/calibre/Calibre-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Calibre';
+  src: url('./assets/font/calibre/Calibre-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calibre';
+  src: url('./assets/font/calibre/Calibre-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Calibre';
+  src: url('./assets/font/calibre/Calibre-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calibre';
+  src: url('./assets/font/calibre/Calibre-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calibre';
+  src: url('./assets/font/calibre/Calibre-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calibre';
+  src: url('./assets/font/calibre/Calibre-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fire Code', monospace;
+  src: url('./assets/font/FireCode/FiraCode-VariableFont_wght.ttf')format('truetype');
+  font-weight: 100 700;
+  font-style: normal;
+}
+
+
+@layer base {
+  button {
+    font-family: 'Fira Code', monospace;
+  }
+}
