@@ -1,30 +1,67 @@
-# React + TypeScript + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my portfolio project, built with Vite, to showcase my skills as a full stack developer.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [About the Project](#about-the-project)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Development Server](#running-the-development-server)
+- [Contact](#contact)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About the Project
 
-## Expanding the ESLint configuration
+This portfolio project demonstrates my proficiency in various frontend and backend technologies. It includes information about my skills, projects, and contact information.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
+- **Vite**: Next Generation Frontend Tooling
+- **React** (or Vue, Svelte, etc. depending on your choice)
+- **Node.js**: JavaScript runtime
+- **Express**: Web framework for Node.js (if you have a backend component)
+- **CSS/SCSS**: Styling
+- **TypeScript**: Typed JavaScript (if applicable)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Getting Started
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Prerequisites
+
+Ensure you have the following installed on your local machine:
+
+- **Node.js** (v14 or higher)
+- **npm** (v6 or higher) or **yarn** (optional)
+
+### Installation
+
+1. Clone the repository:
+
+    ```sh
+    git clone git@github.com:ai-higaurav/portfolio.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```sh
+    cd portfolio
+    ```
+
+3. Install dependencies:
+
+    ```sh
+    npm install
+    ```
+
+    Or if you prefer using yarn:
+
+    ```sh
+    yarn install
+    ```
+
+### Running the Development Server
+
+To start the development server, run:
+
+```sh
+npm run dev
